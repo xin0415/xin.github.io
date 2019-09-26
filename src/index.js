@@ -11,3 +11,15 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 showSlides();
+
+window.onscroll=function(){navfollow()};
+var navbar=document.getElementById("navigation");
+var sticky=navbar.offsetTop;
+
+function navfollow(){
+  if(window.pageYOffset>=sticky){
+    navbar.classList.add("sticky");
+  }else{
+    navbar.classList.remove("sticky");
+  }
+}

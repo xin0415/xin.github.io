@@ -47,9 +47,10 @@
 	background:url(../img/menu.png);
 	background-size: 100%;
 }
-.fixedNav #navigation{
+.sticky{
 	position: fixed;
-	top:0px;
+	top:0;
+	width: 100%;
 }
 
 
