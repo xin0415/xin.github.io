@@ -52,7 +52,7 @@
 	top:0;
 	width: 100%;
 }
-
+/* navigation bar*/
 
 .section{
 	padding:100px 0 100px 0;
@@ -69,4 +69,23 @@
 }
 .aboutImage{
 	max-width: 100%;
+}
+.social{
+	height: 30px;
+	margin-top: 30px;
+}
+.social a{
+	color:#fff;
+	font-size: 20px;
+	margin: 25px;
+	transition: all ease 0.3s;
+	text-decoration: none;
+}
+.contactButton{
+	color:#fff;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 2px;
 }
