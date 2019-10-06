@@ -27,7 +27,7 @@
 /*slides*/
 /*navigation bar*/
 #navigation{
-	font-family: "sans-pro", cursive;
+	font-family: "sans-pro";
 	background-color: #2c3e50;
 	padding:20px 10px;
 	z-index: 100;
@@ -58,22 +58,21 @@
 .section{
 	padding:100px 0 100px 0;
 }
-
 #about{
-	font-family: "sans-pro",cursive;
+	font-family: "sans-pro";
 }
 #contact{
-	font-family: "sans-pro",cursive;
+	font-family: "sans-pro";
 }
 #portfolio{
-	font-family: "sans-pro",cursive;
+	font-family: "sans-pro";
 }
 #footer{
-	font-family: "sans-pro",cursive;
+	font-family: "sans-pro";
 }
 .skillsSection,
 .contactSection{
-	font-family: "sans-pro", cursive;
+	font-family: "sans-pro";
 	color: #fff;
 	background-color: #2c3e50;
 }
@@ -155,14 +154,14 @@
 }
 .items .openButton {
   float: left;
-  left: -200px;
+  left: -300px;
 }
 .items .item:hover .openButton{
   left: 0px;
 }
 .items .project-link {
   float: right;
-  right: -200px;
+  right: -300px;
 }
 .items .item:hover .project-link{
   right: 0px;
