@@ -1,4 +1,5 @@
 var slideIndex = 0;
+var bol=true;
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -9,8 +10,22 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
+  if(bol==true){
+  	showtitle();
+  	bol=false;
+  }
 }
 showSlides();
+function showtitle(){
+	let typed = new Typed('.typed', {
+    strings: ["Software Engineer", "Web Developer", "IT Consultant"],
+    typeSpeed: 80,
+    backSpeed: 30,
+    loop: true,
+    startDelay: 1000,
+    showCursor: true
+  })
+}
 
 window.onscroll=function(){navfollow()};
 var navbar=document.getElementById("navigation");
