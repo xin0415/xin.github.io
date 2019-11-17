@@ -9,15 +9,15 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-  // if(bol==true){
-  // 	showtitle();
-  // 	bol=false;
-  // }
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  if(bol==true){
+  	showtitle();
+  	bol=false;
+  }
 }
 showSlides();
 function showtitle(){
-	let typed = new Typed('.typed', {
+	let typed = new Typed('.type', {
     strings: ["Software Engineer", "Web Developer", "IT Consultant"],
     typeSpeed: 80,
     backSpeed: 30,

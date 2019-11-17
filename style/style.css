@@ -1,4 +1,7 @@
 /*slides*/
+#slides{
+  position: relative;
+}
 .mySlides {
 	display: none;
 }
