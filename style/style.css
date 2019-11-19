@@ -232,6 +232,14 @@
 	border: 1px solid #fff;
 	border-radius: 2px;
 }
+.resumeButton{
+  color:#fff;
+  padding: 15px 52px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
 /*contact*/
 /*footer*/
 .copyrightSection {
